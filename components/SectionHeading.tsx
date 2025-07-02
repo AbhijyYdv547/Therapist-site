@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { therapist } from "@/constants/data";
 import FadeInWhenVisible from "./FadeInWhenVisible";
 

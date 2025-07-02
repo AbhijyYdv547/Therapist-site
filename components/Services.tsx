@@ -1,5 +1,6 @@
 import { services } from "@/constants/data";
 import FadeInWhenVisible from "./FadeInWhenVisible";
+import Image from "next/image";
 
 export default function Services() {
     return (
@@ -17,7 +18,7 @@ export default function Services() {
                     <FadeInWhenVisible key={index} delay={0.02}>
                         <div className="flex flex-col items-center text-center px-4">
                             <div className="w-48 h-48 mb-6 rounded-full overflow-hidden shadow-lg border-4 border-[#3D5748] transition-transform duration-300 hover:scale-105">
-                                <img
+                                <Image
                                     src={service.image}
                                     alt={service.title}
                                     className="w-full h-full object-cover"

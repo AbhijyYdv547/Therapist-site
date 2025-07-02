@@ -83,7 +83,7 @@ export default function ContactForm() {
                 {submitted ? (
                     <FadeInWhenVisible delay={0.2}>
                         <p className="text-center text-[#3D5748] text-lg font-medium">
-                        Thank you for reaching out. We'll get back to you shortly.
+                        Thank you for reaching out. We&apos;s ll get back to you shortly.
                     </p>
                     </FadeInWhenVisible>
                 ) : (

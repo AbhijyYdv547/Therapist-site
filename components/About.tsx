@@ -2,6 +2,7 @@
 
 import { therapist } from "@/constants/data";
 import FadeInWhenVisible from "./FadeInWhenVisible";
+import Image from "next/image";
 
 export default function About() {
     return (
@@ -26,7 +27,7 @@ export default function About() {
                 {/* Image Section */}
                 <FadeInWhenVisible delay={0.02}>
                     <div className="flex-1">
-                        <img
+                        <Image
                             src="/images/dr-serena.jpg"
                             alt="Dr. Serena Blake"
                             className="w-full h-auto object-cover rounded-2xl shadow-md"
